@@ -9,5 +9,11 @@
 Примечание: Условимся, что пользователь всегда вводит корректные значения, 
 три числа. Проверять их не нужно.
 */
-
-// Здесь пишем решение, данный комментарий необходимо стереть.
+function maxNambers(num1, num2, num3) {
+    console.log(`"Максимальное значение среди чисел ${num1}, ${num2}, ${num3} равно ${Math.max(num1, num2, num3)}"`);
+    return;
+}
+const inputNum1 = Number(prompt("Введите число №1"));
+const inputNum2 = Number(prompt("Введите число №2"));
+const inputNum3 = Number(prompt("Введите число №3"));
+maxNambers(inputNum1, inputNum2, inputNum3);

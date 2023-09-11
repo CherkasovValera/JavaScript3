@@ -9,15 +9,15 @@
 сообщение "Размер заработной платы за вычетом налогов равен N."
 */
 
-function salaryNumber(number) {
-  if (!Number.isFinite(number)) {
-    console.log("Значение задано не верно");
-    return;
-  }
-  else {
-    console.log(`"Размер заработной платы за вычетом налогов равен ${(number = number * 0.87)}"`);
-    return ;
-  }
-}
-const inputNumber = Number(prompt("Введите число"));
-salaryNumber(inputNumber);
+// function salaryNumber(number) {
+//   if (!Number.isFinite(number)) {
+//     console.log("Значение задано не верно");
+//     return;
+//   }
+//   else {
+//     console.log(`"Размер заработной платы за вычетом налогов равен ${(number = number * 0.87)}"`);
+//     return ;
+//   }
+// }
+// const inputNumber = Number(prompt("Введите число"));
+// salaryNumber(inputNumber);
