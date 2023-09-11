@@ -17,5 +17,35 @@ console.log(sum(2, 6)); должно вывести число 8 в консол
 не нужно.
 Демонстрировать работы функций не обязательно.
 */
-
-// Здесь пишем решение, данный комментарий необходимо стереть.
+function sumNambers(num1, num2) {
+    console.log("Сумма")  
+    console.log(num1 + num2);
+  return;
+}
+function subNambers(num1, num2) {
+  if (num1 >= num2) {
+    console.log("Разница")
+    console.log(num1 - num2);
+    return;
+  } else {
+    console.log("Разница")
+    console.log(num2 - num1);
+    return;
+  }
+}
+function multNambers(num1, num2) {
+    console.log("Произведение")
+    console.log(num1 * num2);
+    return;
+}
+function divNambers(num1, num2) {
+    console.log("Частное")
+    console.log(num1 / num2);
+    return;
+}
+const inputNum1 = Number(prompt("Введите число №1"));
+const inputNum2 = Number(prompt("Введите число №2"));
+sumNambers(inputNum1, inputNum2);
+subNambers(inputNum1, inputNum2);
+multNambers(inputNum1, inputNum2);
+divNambers(inputNum1, inputNum2);
